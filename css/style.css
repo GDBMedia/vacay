@@ -8,9 +8,11 @@
 h1{
 	text-align: center;
 	padding: .2em 0 .4em 0;
+	color: #313235;
 }
 label{
 	font-size: 1.5em;
+	color: #313235;
 }
 .form-control{
 	font-size: 1.75em;
@@ -36,4 +38,7 @@ label{
 }
 .myHidden{
 	display: none;
+}
+body{
+	font-family: Rockwell,Courier Bold,Courier,Georgia,Times,Times New Roman,serif; 
 }

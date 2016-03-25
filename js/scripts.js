@@ -1,4 +1,8 @@
 $(function(event){
+	$("body").fadeIn(1000);
+	$(this).scrollTop();
+	
+
 	$("#clear").click(function(event){
 		$("#myform")[0].reset();
 		event.preventDefault();
@@ -16,8 +20,9 @@ $(function(event){
 		var type = parseInt($("#type").val());
 		var temp = $("input:radio[name=temp]:checked").val();
 		var price = parseInt($("#price").val());
+		$(this).scrollTop();
 
-		if(!name || !type || !temp || !price)/*||(type === false)||(temp === false)||(price === false))*/{
+		if(!name || !type || !temp || !price){
 			if(!name){
 				$("#nameInput").addClass("has-error");
 				$("#nameInput").click(function(){
@@ -222,17 +227,22 @@ $(function(event){
 		$("#nameOops").text(name);
 
 		if(x ===1){
-			
+			$("#header img").removeClass("logo");
+			$("#header img").addClass("logo2");
 			$("#survey").hide();
 			$("#answer").fadeIn("slow");
 		}
 		if(x ===2 ){
-			
+			$("#header img").removeClass("logo");
+			$("#header img").addClass("logo2");
 			$("#survey").hide();
 			$("#oops").fadeIn("slow");
 		}
 		event.preventDefault();
 		$("#continue").click(function(){
+			$(this).scrollTop();
+			$("#header img").addClass("logo");
+			$("#header img").removeClass("logo2");
 			$("#answer").hide();
 			$('#myform')[0].reset();
 			$("#survey").fadeIn("slow");
@@ -240,6 +250,9 @@ $(function(event){
 		});
 		event.preventDefault();
 		$("#continue2").click(function(){
+			$(this).scrollTop();
+			$("#header img").addClass("logo");
+			$("#header img").removeClass("logo2");
 			$("#oops").hide();
 			$('#myform')[0].reset();
 			$("#survey").fadeIn("slow");

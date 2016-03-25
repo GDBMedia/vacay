@@ -87,8 +87,8 @@ $(function(event){
 						
 					}
 					if(price === 4){
-						$("#vacayAnswer").text("a 4 year long trip around the world staying 5 star hotels");
-						$("#description").text("invent your own itinerary where do you want to travel? What do you want to see? Clearly money is no problem!");
+						$("#vacayAnswer").text("a 4 year long trip around the world staying in 5 star hotels");
+						$("#description").text("invent your own itinerary, where do you want to travel? What do you want to see? Clearly money is no problem!");
 						
 					}
 				}

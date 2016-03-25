@@ -54,15 +54,11 @@ label{
 	display: none;
 }
 body{
-	font-family: RockWell
+	font-family: Arvo, serif;
 }
 p.lead{
 	font-size: 2em;
 }
 .red{
 	color: #d74946;
-}
-@font-face {
-    font-family: RockWell;
-    src:"fonts/rockwell.ttf";
 }

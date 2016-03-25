@@ -9,10 +9,12 @@ h1{
 	text-align: center;
 	padding: .2em 0 .4em 0;
 	color: #313235;
+	font-size: 4rem;
 }
 label{
-	font-size: 1.5em;
+	font-size: 2em;
 	color: #313235;
+	font-weight: normal;
 }
 .form-control{
 	font-size: 1.75em;
@@ -32,6 +34,11 @@ label{
 	padding: .5em;
 	font-size: 1.8em;
 }
+.btn-danger{
+	margin-top: 1em;
+	padding: .5em;
+	font-size: 1.8em;
+}
 .container{
 	margin-top: 2em;
 	margin-bottom: 8em;
@@ -41,4 +48,10 @@ label{
 }
 body{
 	font-family: Rockwell,Courier Bold,Courier,Georgia,Times,Times New Roman,serif; 
+}
+.lead{
+	font-size: 3em;
+}
+.red{
+	color: #d74946;
 }

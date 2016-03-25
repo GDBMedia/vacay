@@ -16,49 +16,49 @@
   	</div>
   	<div class="container">
     <hr>
-      <div id="survey" >
+      <div id="survey">
         <h1>Identification Survey</h1>
-        <form class="form clearfix">
+        <form class="form clearfix" id="myform">
           <div class="form-group">
             <label for="name">Name:</label>
             <input id="name" class="form-control" type="text">
           </div>
           <div class="form-group">
-            <label for="name">E-mail:</label>
-            <input id="name" class="form-control" type="email">
+            <label for="email">E-mail:</label>
+            <input id="email" class="form-control" type="email">
           </div>
           <div class="form-group">
-            <label for="name">Date you want to leave:</label>
-            <input id="name" class="form-control" type="date">
+            <label for="date">Date you want to leave:</label>
+            <input id="date" class="form-control" type="date">
           </div>
            <div class="form-group">
             <label for="type">Which trip sounds most apealing?</label>
-            <select class="form-control">
-              <option>Backpacking in Europe</option>
-              <option>Site Seeing in Paris</option>
-              <option>Exploring in Hawaii</option>
-              <option>Taking a luxery Cruise</option>
+            <select class="form-control" id="type">
+              <option value="" disabled selected>Select your option</option>
+              <option value="1">Backpacking in Europe</option>
+              <option value="2">Site Seeing in Paris</option>
+              <option value="3">Exploring in Hawaii</option>
+              <option value="4">Taking a luxery Cruise</option>
             </select>
           </div>
+
            <div class="form-group">
            <label>Tempature?</label>
-             <div class="radio">
-               <label><input type="radio" name="optradio">Hot</label>
+             <div class="radio" >
+               <label><input type="radio" name="temp" value="hot">Hot</label>
              </div>
              <div class="radio">
-               <label><input type="radio" name="optradio">Cold</label>
+               <label><input type="radio" name="temp" value="cold">Cold</label>
              </div>
           </div>
            <div class="form-group">
-            <label for="amen">Price Range?</label>
-            <select class="form-control">
-              <option>$0 - $150</option>
-              <option>$150 - $500</option>
-              <option>$500 - $1000</option>
-              <option>$1000 - $2500</option>
-              <option>$2500 - $5000</option>
-              <option>$5000 - $10000</option>
-              <option>$10000+</option>
+            <label for="price">Price Range?</label>
+            <select class="form-control" id="price">
+              <option value="" disabled selected>Select your option</option>
+              <option value="1">$0 - $500</option>
+              <option value="2">$500 - $1000</option>
+              <option value="3">$1000 - $10000</option>
+              <option value="4">$10000+</option>
             </select>
           </div>
           <button id="submit" class="btn btn-lg btn-success pull-right">Submit</button>

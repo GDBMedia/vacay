@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.2.js"></script>
+    <script src="js/scripts.js"></script>
+    <link rel="icon" type="image/png" href="img/ico.png">
+    <title>Vacation Identification</title>
+  </head>
+  <body>
+  	<div class="jumbotron" id="header">
+      <img src="img/logo2.png" id="logo2" class="visible-xs img-responsive logo">
+      <img src="img/logo.png" id="logo" class="hidden-xs img-responsive logo">
+
+  	</div>
+  	<div class="container">
+    <hr>
+      <div id="survey" >
+        <h1>Identification Survey</h1>
+        <form class="form clearfix">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input id="name" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="name">E-mail:</label>
+            <input id="name" class="form-control" type="email">
+          </div>
+          <div class="form-group">
+            <label for="name">Date you want to leave:</label>
+            <input id="name" class="form-control" type="date">
+          </div>
+           <div class="form-group">
+            <label for="type">Which trip sounds most apealing?</label>
+            <select class="form-control">
+              <option>Backpacking in Europe</option>
+              <option>Site Seeing in Paris</option>
+              <option>Exploring in Hawaii</option>
+              <option>Taking a luxery Cruise</option>
+            </select>
+          </div>
+           <div class="form-group">
+           <label>Tempature?</label>
+             <div class="radio">
+               <label><input type="radio" name="optradio">Hot</label>
+             </div>
+             <div class="radio">
+               <label><input type="radio" name="optradio">Cold</label>
+             </div>
+          </div>
+           <div class="form-group">
+            <label for="amen">Price Range?</label>
+            <select class="form-control">
+              <option>$0 - $150</option>
+              <option>$150 - $500</option>
+              <option>$500 - $1000</option>
+              <option>$1000 - $2500</option>
+              <option>$2500 - $5000</option>
+              <option>$5000 - $10000</option>
+              <option>$10000+</option>
+            </select>
+          </div>
+          <button id="submit" class="btn btn-lg btn-success pull-right">Submit</button>
+        </form>
+      </div> 
+      <div id="answer" class="myHidden">
+        <div class="jumbotron clearfix">
+          <h1>Congratulations!</h1>
+          <p class="lead">Dear <span id="nameAnswer"></span>, We here at Vacation Identification have done our research and we highly recommend a trip to <span id="vacayAnswer"></span>, where you will be able to <span id="description"></span>. We hope you enjoy your vacation and have a safe and wonderful trip!</p>
+          <button id="continue" class="btn btn-lg btn-success pull-right">Continue</button>
+        </div>
+      </div> 
+      <hr>  
+    </div>
+  </body>
+</html>   

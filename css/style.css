@@ -1,0 +1,39 @@
+.logo{
+	width: 50%;
+	margin: 0 auto;
+}
+#header{
+	text-align: center;
+}
+h1{
+	text-align: center;
+	padding: .2em 0 .4em 0;
+}
+label{
+	font-size: 1.5em;
+}
+.form-control{
+	font-size: 1.75em;
+	padding: 1em 0.5em 1em 0.5em;
+}
+
+.btn-primary{
+	margin-top: 1em;
+	padding: .5em;
+	font-size: 1.8em;
+}
+.form-group{
+	margin: 1em;
+}
+.btn-success{
+	margin-top: 1em;
+	padding: .5em;
+	font-size: 1.8em;
+}
+.container{
+	margin-top: 2em;
+	margin-bottom: 8em;
+}
+.myHidden{
+	display: none;
+}

@@ -54,11 +54,15 @@ label{
 	display: none;
 }
 body{
-	font-family: Rockwell,Courier Bold,Courier,Georgia,Times,Times New Roman,serif; 
+	font-family: RockWell
 }
 p.lead{
 	font-size: 2em;
 }
 .red{
 	color: #d74946;
+}
+@font-face {
+    font-family: RockWell;
+    src: url('font/rockwell.ttf');
 }

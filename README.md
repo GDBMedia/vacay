@@ -6,7 +6,7 @@
 
 ## Description
 
-_A Website that as 5 questions to determine where they should travel for vacation_
+_A Website that asks 5 questions to determine where the user should travel for vacation_
 
 ## Setup/Installation Requirements
 
@@ -31,4 +31,4 @@ _I used mostly HTML but there is CSS  and the website is made using bootstrap fr
 
 *MIT License*
 
-Copyright (c) 2015 **_GDB Media, Inc._**
+Copyright (c) 2016 **_GDB Media, Inc._**
